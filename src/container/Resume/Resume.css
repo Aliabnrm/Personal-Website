@@ -1,0 +1,76 @@
+.h-full {
+  height: 100%;
+}
+
+.skew-reset {
+  transform: translateZ(0) skewY(6deg);
+}
+
+.resume {
+  margin-top: 15rem;
+  box-shadow: 0 0 6rem rgb(19 182 255 / 24%);
+  padding: 10rem 0;
+  transform: translateZ(0) skewY(-6deg);
+  background-color: var(--section-bg-color);
+}
+
+.resume-content {
+  border-left: 0.2rem solid var(--primary-color);
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+.resume-content__item {
+  margin-bottom: 4rem;
+}
+.resume-content__item:last-child {
+  margin-bottom: 0;
+}
+.resume-content__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.resume-content__title {
+  color: #ff5823;
+  font-family: "Poppins SemiBold";
+  font-size: 1.8rem;
+  margin: 0;
+  position: relative;
+}
+.resume-content__title::before {
+  content: "";
+  position: absolute;
+  left: -3rem;
+  top: 0;
+  bottom: 0;
+  width: 1.8rem;
+  height: 1.8rem;
+  background-color: var(--primary-color);
+  border-radius: 100%;
+  margin: auto;
+}
+.resume-content__date {
+  background-color: #ff5823;
+  border-radius: 2rem;
+  padding: 0.2rem 1.5rem;
+  color: #fff;
+  box-shadow: 0 0 4rem rgba(245, 127, 34, 34%);
+}
+.resume-content__subtitle {
+  font-family: "Poppins SemiBold";
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+.resume-content__description {
+  margin: 0;
+}
+
+.resume-photo {
+  background-image: url("../..//assets/bg-resume.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+}
